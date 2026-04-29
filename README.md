@@ -34,6 +34,8 @@ jobs:
     - uses: actions/checkout@v3
     - uses: actions/setup-python@v3
     - uses: pre-commit/action@v3.0.1
+      with:
+        version: 4.6.0
 ```
 
 This does a few things:
